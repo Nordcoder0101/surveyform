@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <form action="/processform" method="POST">
+      Your Name <input type = "string" name="name"><br>
+      Dojo Location <select name="location">
+        <option value="Seattle">Seattle</option>
+        <option value="San Jose">San Jose</option>
+        <option value="Boise">Boise</option>
+      </select><br>
+      Favorite Language <select name="language">
+        <option value="python">Python</option>
+        <option value="javaScript">JavaScript</option>
+        <option value="cSharp">cSharp</option>
+      </select><br>
+      <textarea cols="40" rows="5" name="comment"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
